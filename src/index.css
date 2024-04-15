@@ -106,6 +106,7 @@ body {
 
 /* styles the box containing all of the movies in the list */
 .box {
+    width: 42rem;
     max-width: 42rem; /* makes it so the box doesnt take up the whole page */
     background-color: var(--color-background-500); /* sets the backgroumd */
     border-radius: 0.9rem; /* adds smooth edges to the box */
@@ -135,8 +136,7 @@ body {
     padding: 0.8rem 0; /* vertical padding only, 0 for horizontal */
 }
 
-.btn-toggle {
-    position: absolute;
+.list li {
     position: relative;
     display: grid;
     grid-template-columns: 4rem 1fr;
